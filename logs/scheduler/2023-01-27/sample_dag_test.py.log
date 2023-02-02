@@ -1,0 +1,7 @@
+[2023-01-27T01:35:07.105+0000] {processor.py:153} INFO - Started process (PID=5713) to work on /opt/airflow/dags/sample_dag_test.py
+[2023-01-27T01:35:07.108+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_dag_test.py for tasks to queue
+[2023-01-27T01:35:07.120+0000] {logging_mixin.py:137} INFO - [2023-01-27T01:35:07.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_dag_test.py
+[2023-01-27T01:35:07.289+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /opt/airflow/dags/sample_dag_test.py
+[2023-01-27T01:35:08.018+0000] {logging_mixin.py:137} INFO - [2023-01-27T01:35:08.017+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-27T01:35:08.233+0000] {logging_mixin.py:137} INFO - [2023-01-27T01:35:08.233+0000] {dag.py:3427} INFO - Setting next_dagrun for my_sample_dag to None, run_after=None
+[2023-01-27T01:35:08.347+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_dag_test.py took 1.276 seconds

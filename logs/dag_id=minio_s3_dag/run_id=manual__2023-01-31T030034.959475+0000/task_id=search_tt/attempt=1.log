@@ -1,0 +1,39 @@
+[2023-01-31T03:00:38.943+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: minio_s3_dag.search_tt manual__2023-01-31T03:00:34.959475+00:00 [queued]>
+[2023-01-31T03:00:38.968+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: minio_s3_dag.search_tt manual__2023-01-31T03:00:34.959475+00:00 [queued]>
+[2023-01-31T03:00:38.969+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31T03:00:38.969+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-01-31T03:00:38.970+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31T03:00:39.003+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): search_tt> on 2023-01-31 03:00:34.959475+00:00
+[2023-01-31T03:00:39.014+0000] {standard_task_runner.py:55} INFO - Started process 1235 to run task
+[2023-01-31T03:00:39.020+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'minio_s3_dag', 'search_tt', 'manual__2023-01-31T03:00:34.959475+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/solution.py', '--cfg-path', '/tmp/tmpc5vu0egy']
+[2023-01-31T03:00:39.028+0000] {standard_task_runner.py:83} INFO - Job 35: Subtask search_tt
+[2023-01-31T03:00:39.162+0000] {task_command.py:388} INFO - Running <TaskInstance: minio_s3_dag.search_tt manual__2023-01-31T03:00:34.959475+00:00 [running]> on host 5c63ae874330
+[2023-01-31T03:00:39.690+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Bassam
+AIRFLOW_CTX_DAG_ID=minio_s3_dag
+AIRFLOW_CTX_TASK_ID=search_tt
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T03:00:34.959475+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T03:00:34.959475+00:00
+[2023-01-31T03:00:39.694+0000] {twitter.py:758} INFO - Retrieving scroll page None
+[2023-01-31T03:00:39.694+0000] {twitter.py:684} INFO - Retrieving guest token
+[2023-01-31T03:00:39.698+0000] {base.py:172} INFO - Retrieving https://twitter.com/search?f=live&lang=en&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&src=spelling_expansion_revert_click
+[2023-01-31T03:00:40.197+0000] {base.py:191} INFO - Retrieved https://twitter.com/search?f=live&lang=en&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&src=spelling_expansion_revert_click: 200
+[2023-01-31T03:00:40.203+0000] {base.py:172} INFO - Retrieving https://api.twitter.com/2/search/adaptive.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&include_ext_has_nft_avatar=1&include_ext_is_blue_verified=1&include_ext_verified_type=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_ext_limited_action_results=false&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_ext_collab_control=true&include_ext_views=true&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&include_ext_sensitive_media_warning=true&include_ext_trusted_friends_metadata=true&send_error_codes=true&simple_quoted_tweet=true&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&tweet_search_mode=live&count=20&query_source=spelling_expansion_revert_click&pc=1&spelling_corrections=1&include_ext_edit_control=true&ext=mediaStats%2ChighlightedLabel%2ChasNftAvatar%2CvoiceInfo%2Cenrichments%2CsuperFollowMetadata%2CunmentionInfo%2CeditControl%2Ccollab_control%2Cvibe
+[2023-01-31T03:00:41.382+0000] {base.py:191} INFO - Retrieved https://api.twitter.com/2/search/adaptive.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&include_ext_has_nft_avatar=1&include_ext_is_blue_verified=1&include_ext_verified_type=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_ext_limited_action_results=false&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_ext_collab_control=true&include_ext_views=true&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&include_ext_sensitive_media_warning=true&include_ext_trusted_friends_metadata=true&send_error_codes=true&simple_quoted_tweet=true&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&tweet_search_mode=live&count=20&query_source=spelling_expansion_revert_click&pc=1&spelling_corrections=1&include_ext_edit_control=true&ext=mediaStats%2ChighlightedLabel%2ChasNftAvatar%2CvoiceInfo%2Cenrichments%2CsuperFollowMetadata%2CunmentionInfo%2CeditControl%2Ccollab_control%2Cvibe: 200
+[2023-01-31T03:00:41.430+0000] {logging_mixin.py:137} INFO -                        date  ...                                           hashtags
+0 2023-01-30 23:59:58+00:00  ...                                          [COVID19]
+1 2023-01-30 23:59:52+00:00  ...                                 [COVID19, COVID19]
+2 2023-01-30 23:59:48+00:00  ...                            [AlexWasRight, Covid19]
+3 2023-01-30 23:59:37+00:00  ...  [Corona, USA, Coronavirus, Covid19, Covid_19, ...
+4 2023-01-30 23:59:30+00:00  ...                    [Covid19, Vaccin, OMS, COVID19]
+5 2023-01-30 23:59:22+00:00  ...                      [医療従事者, COVID19, 歯科医師, 感染症対策]
+6 2023-01-30 23:59:17+00:00  ...                                          [COVID19]
+
+[7 rows x 4 columns]
+[2023-01-31T03:00:41.430+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-31T03:00:41.446+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=minio_s3_dag, task_id=search_tt, execution_date=20230131T030034, start_date=20230131T030038, end_date=20230131T030041
+[2023-01-31T03:00:41.523+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-01-31T03:00:41.553+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

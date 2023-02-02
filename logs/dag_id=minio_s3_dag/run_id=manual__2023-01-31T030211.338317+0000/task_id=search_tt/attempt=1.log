@@ -1,0 +1,40 @@
+[2023-01-31T03:02:15.105+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: minio_s3_dag.search_tt manual__2023-01-31T03:02:11.338317+00:00 [queued]>
+[2023-01-31T03:02:15.140+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: minio_s3_dag.search_tt manual__2023-01-31T03:02:11.338317+00:00 [queued]>
+[2023-01-31T03:02:15.140+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31T03:02:15.141+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-01-31T03:02:15.142+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31T03:02:15.179+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): search_tt> on 2023-01-31 03:02:11.338317+00:00
+[2023-01-31T03:02:15.186+0000] {standard_task_runner.py:55} INFO - Started process 1328 to run task
+[2023-01-31T03:02:15.192+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'minio_s3_dag', 'search_tt', 'manual__2023-01-31T03:02:11.338317+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/solution.py', '--cfg-path', '/tmp/tmpl7_jheds']
+[2023-01-31T03:02:15.200+0000] {standard_task_runner.py:83} INFO - Job 36: Subtask search_tt
+[2023-01-31T03:02:15.334+0000] {task_command.py:388} INFO - Running <TaskInstance: minio_s3_dag.search_tt manual__2023-01-31T03:02:11.338317+00:00 [running]> on host 5c63ae874330
+[2023-01-31T03:02:15.819+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Bassam
+AIRFLOW_CTX_DAG_ID=minio_s3_dag
+AIRFLOW_CTX_TASK_ID=search_tt
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T03:02:11.338317+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T03:02:11.338317+00:00
+[2023-01-31T03:02:15.825+0000] {twitter.py:758} INFO - Retrieving scroll page None
+[2023-01-31T03:02:15.826+0000] {twitter.py:684} INFO - Retrieving guest token
+[2023-01-31T03:02:15.829+0000] {base.py:172} INFO - Retrieving https://twitter.com/search?f=live&lang=en&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&src=spelling_expansion_revert_click
+[2023-01-31T03:02:16.892+0000] {base.py:191} INFO - Retrieved https://twitter.com/search?f=live&lang=en&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&src=spelling_expansion_revert_click: 200
+[2023-01-31T03:02:16.900+0000] {base.py:172} INFO - Retrieving https://api.twitter.com/2/search/adaptive.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&include_ext_has_nft_avatar=1&include_ext_is_blue_verified=1&include_ext_verified_type=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_ext_limited_action_results=false&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_ext_collab_control=true&include_ext_views=true&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&include_ext_sensitive_media_warning=true&include_ext_trusted_friends_metadata=true&send_error_codes=true&simple_quoted_tweet=true&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&tweet_search_mode=live&count=20&query_source=spelling_expansion_revert_click&pc=1&spelling_corrections=1&include_ext_edit_control=true&ext=mediaStats%2ChighlightedLabel%2ChasNftAvatar%2CvoiceInfo%2Cenrichments%2CsuperFollowMetadata%2CunmentionInfo%2CeditControl%2Ccollab_control%2Cvibe
+[2023-01-31T03:02:17.883+0000] {base.py:191} INFO - Retrieved https://api.twitter.com/2/search/adaptive.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&include_ext_has_nft_avatar=1&include_ext_is_blue_verified=1&include_ext_verified_type=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_ext_limited_action_results=false&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_ext_collab_control=true&include_ext_views=true&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&include_ext_sensitive_media_warning=true&include_ext_trusted_friends_metadata=true&send_error_codes=true&simple_quoted_tweet=true&q=%23covid19+since%3A2023-01-01+until%3A2023-01-31&tweet_search_mode=live&count=20&query_source=spelling_expansion_revert_click&pc=1&spelling_corrections=1&include_ext_edit_control=true&ext=mediaStats%2ChighlightedLabel%2ChasNftAvatar%2CvoiceInfo%2Cenrichments%2CsuperFollowMetadata%2CunmentionInfo%2CeditControl%2Ccollab_control%2Cvibe: 200
+[2023-01-31T03:02:17.906+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/solution.py", line 44, in process_all
+    df_tweets = search_hashtag(hashtag, num_tweets, since_date, until_date)
+  File "/opt/airflow/dags/solution.py", line 62, in search_hashtag
+    df_from_tweets_list = pd.DataFrame(tweets_list2, columns=['date', 'content', 'rendered_content', 'hashtags'])
+NameError: name 'tweets_list2' is not defined
+[2023-01-31T03:02:17.997+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=minio_s3_dag, task_id=search_tt, execution_date=20230131T030211, start_date=20230131T030215, end_date=20230131T030217
+[2023-01-31T03:02:18.045+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 36 for task search_tt (name 'tweets_list2' is not defined; 1328)
+[2023-01-31T03:02:18.103+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-01-31T03:02:18.150+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

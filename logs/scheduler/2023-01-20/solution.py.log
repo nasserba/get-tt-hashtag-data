@@ -1,0 +1,144 @@
+[2023-01-20T22:43:39.300+0000] {processor.py:153} INFO - Started process (PID=4599) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:43:39.303+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:43:39.306+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:43:39.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:43:39.772+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:43:39.771+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:43:41.977+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:43:42.236+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:43:42.236+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:43:42.420+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:43:42.420+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:43:40.773543+00:00, run_after=2023-01-21T22:43:40.773543+00:00
+[2023-01-20T22:43:42.613+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 3.321 seconds
+[2023-01-20T22:44:12.945+0000] {processor.py:153} INFO - Started process (PID=4634) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:44:12.966+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:44:12.998+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:12.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:44:14.136+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:14.135+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:44:16.288+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:44:17.050+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:17.049+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:44:17.715+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:17.714+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:43:40.773543+00:00, run_after=2023-01-21T22:43:40.773543+00:00
+[2023-01-20T22:44:17.910+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 4.994 seconds
+[2023-01-20T22:44:48.181+0000] {processor.py:153} INFO - Started process (PID=4659) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:44:48.196+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:44:48.198+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:48.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:44:48.459+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:48.459+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:44:48.734+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:44:48.801+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:48.801+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:44:48.864+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:44:48.864+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:44:48.908+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.735 seconds
+[2023-01-20T22:45:19.173+0000] {processor.py:153} INFO - Started process (PID=4693) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:45:19.175+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:45:19.185+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:19.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:45:19.462+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:19.461+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:45:19.793+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:45:19.871+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:19.871+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:45:19.947+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:19.947+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:45:20.011+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.845 seconds
+[2023-01-20T22:45:50.431+0000] {processor.py:153} INFO - Started process (PID=4728) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:45:50.437+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:45:50.442+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:50.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:45:50.850+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:50.849+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:45:51.390+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:45:51.484+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:51.484+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:45:51.560+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:45:51.559+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:45:52.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 1.813 seconds
+[2023-01-20T22:46:23.047+0000] {processor.py:153} INFO - Started process (PID=4762) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:46:23.049+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:46:23.050+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:23.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:46:23.187+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:23.186+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:46:23.460+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:46:23.526+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:23.526+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:46:23.777+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:23.777+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:46:23.832+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.791 seconds
+[2023-01-20T22:46:53.936+0000] {processor.py:153} INFO - Started process (PID=4796) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:46:53.938+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:46:53.940+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:53.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:46:54.100+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:54.100+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:46:54.289+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:46:54.331+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:54.331+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:46:54.371+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:46:54.371+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:46:54.411+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.479 seconds
+[2023-01-20T22:47:25.205+0000] {processor.py:153} INFO - Started process (PID=4830) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:47:25.207+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:47:25.209+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:25.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:47:25.346+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:25.346+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:47:25.507+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:47:25.557+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:25.557+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:47:25.594+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:25.594+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:47:25.623+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.424 seconds
+[2023-01-20T22:47:55.929+0000] {processor.py:153} INFO - Started process (PID=4864) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:47:55.930+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:47:55.932+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:55.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:47:56.065+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:56.065+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:47:56.236+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:47:56.277+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:56.277+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:47:56.324+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:47:56.324+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:47:56.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.429 seconds
+[2023-01-20T22:48:26.430+0000] {processor.py:153} INFO - Started process (PID=4914) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:48:26.432+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:48:26.434+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:26.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:48:26.601+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:26.601+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:48:26.804+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:48:26.862+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:26.861+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:48:26.954+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:26.954+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:48:26.997+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.573 seconds
+[2023-01-20T22:48:57.459+0000] {processor.py:153} INFO - Started process (PID=4948) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:48:57.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:48:57.462+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:57.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:48:57.617+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:57.616+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:48:57.792+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:48:57.832+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:57.832+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:48:57.886+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:48:57.886+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:48:58.118+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.664 seconds
+[2023-01-20T22:49:28.266+0000] {processor.py:153} INFO - Started process (PID=4982) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:49:28.268+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:49:28.269+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:28.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:49:28.448+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:28.448+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:49:28.618+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:49:28.663+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:28.663+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:49:28.886+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:28.886+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:49:28.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.658 seconds
+[2023-01-20T22:49:59.346+0000] {processor.py:153} INFO - Started process (PID=5016) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:49:59.348+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:49:59.350+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:59.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:49:59.509+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:59.508+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:49:59.717+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:49:59.759+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:49:59.759+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:50:00.004+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:50:00.004+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:50:00.041+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.701 seconds
+[2023-01-20T22:50:30.348+0000] {processor.py:153} INFO - Started process (PID=5050) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:50:30.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:50:30.351+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:50:30.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:50:30.522+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:50:30.521+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:50:30.756+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:50:30.824+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:50:30.824+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:50:30.881+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:50:30.880+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:50:30.923+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.583 seconds
+[2023-01-20T22:51:01.655+0000] {processor.py:153} INFO - Started process (PID=5093) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:51:01.657+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:51:01.658+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:01.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:51:01.786+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:01.786+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:51:01.971+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:51:02.012+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:02.012+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:51:02.052+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:02.052+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:51:02.081+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.431 seconds
+[2023-01-20T22:51:32.377+0000] {processor.py:153} INFO - Started process (PID=5135) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:51:32.379+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:51:32.380+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:32.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:51:32.556+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:32.556+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:51:32.736+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:51:32.777+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:32.777+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:51:32.816+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:51:32.815+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:51:32.869+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.499 seconds
+[2023-01-20T22:52:03.024+0000] {processor.py:153} INFO - Started process (PID=5169) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:52:03.026+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:52:03.028+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:03.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:52:03.280+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:03.279+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:52:03.531+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:52:03.574+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:03.573+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:52:03.634+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:03.634+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:52:03.666+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.648 seconds
+[2023-01-20T22:52:34.334+0000] {processor.py:153} INFO - Started process (PID=5203) to work on /opt/airflow/dags/solution.py
+[2023-01-20T22:52:34.335+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2023-01-20T22:52:34.337+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:34.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2023-01-20T22:52:34.480+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:34.479+0000] {base.py:73} INFO - Using connection ID 'minio' for task execution.
+[2023-01-20T22:52:34.653+0000] {processor.py:753} INFO - DAG(s) dict_keys(['minio_dag_boto']) retrieved from /opt/airflow/dags/solution.py
+[2023-01-20T22:52:34.696+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:34.696+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-20T22:52:34.751+0000] {logging_mixin.py:137} INFO - [2023-01-20T22:52:34.751+0000] {dag.py:3427} INFO - Setting next_dagrun for minio_dag_boto to 2023-01-20T22:44:47.015592+00:00, run_after=2023-01-21T22:44:47.015592+00:00
+[2023-01-20T22:52:34.957+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/solution.py took 0.630 seconds
